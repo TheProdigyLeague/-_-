@@ -137,1443 +137,1307 @@ msgstr "'msgexit' => _('Leaving')"
 
 #: socialist_mediams.php:302
 msgid "Member registered"
-msgstr "सदस्य पंजीकृत"
+msgstr "'msgmemreg' => _('Member registered')"
 
 #: socialist_mediams.php:303
 msgid "Applicant registered"
-msgstr "आवेदक पंजीकृत"
+msgstr "'msgsureg' => _('Applicant registered')"
 
 #: socialist_mediams.php:304
 msgid "Kicked"
-msgstr "बाहर निकाला"
+msgstr "msgkick' => _('Kicked')"
 
 #: socialist_mediams.php:305
 msgid "Multiple kicked"
-msgstr "एकाधिक बाहर निकाला"
+msgstr "'msgmultikick' => _('Multiple kicked')"
 
 #: socialist_mediams.php:306
 msgid "All kicked"
-msgstr "सबको बाहर निकाला"
+msgstr "'msgallkick' => _('All kicked')"
 
 #: socialist_mediams.php:307
 msgid "Room cleaned"
-msgstr "रूम साफ़ किया"
+msgstr "'msgclean' => _('Room cleaned')"
 
 #: socialist_mediams.php:308
 msgid "Message to all"
-msgstr "सभी को संदेश"
+msgstr "'msgsendall' => _('Message to all')"
 
 #: socialist_mediams.php:309
 msgid "Message to members only"
-msgstr "केवल सदस्यों को संदेश"
+msgstr "'msgsendmem' => _('Message to members only')"
 
 #: socialist_mediams.php:310
 msgid "Message to staff only"
-msgstr "केवल स्टाफ के लिए संदेश"
+msgstr "'msgsendmod' => _('Message to staff only')"
 
 #: socialist_mediams.php:311
 msgid "Message to admins only"
-msgstr "केवल व्यवस्थापकों के लिए संदेश"
+msgstr "'msgsendadm' => _('Message to admins only')"
 
 #: socialist_mediams.php:312
 msgid "pm"
-msgstr "निजी संदेश"
+msgstr "'msgsendprv' => _('Private message')"
 
 #: socialist_mediams.php:313
 msgid "Attachement"
-msgstr "अनुलग्न फाईल"
+msgstr "'msgattache' => _('Attachement')];..."
 
 #: socialist_mediams.php:316
 msgid "Member timeout (minutes)"
-msgstr "सदस्य टाईमआउट (मिनट)"
+msgstr "$C['number_settings']=['memberexpire' => _('Member timeout (minutes)')..."
 
 #: socialist_mediams.php:317
 msgid "Guest timeout (minutes)"
-msgstr "अतिथि टाईमआउट (मिनट)"
+msgstr "'guestexpire' => _('Guest timeout (minutes)')"
 
 #: socialist_mediams.php:318
 msgid "Kick penalty (minutes)"
-msgstr "किक पेनल्टी (मिनट)"
+msgstr "'kickpenalty' => _('Kick penalty (minutes)')"
 
 #: socialist_mediams.php:319
 msgid "Waiting room time (seconds)"
-msgstr "प्रतीक्षा का समय (सेकंड)"
+msgstr "'entrywait' => _('Waiting room time (seconds)')"
 
 #: socialist_mediams.php:320
 msgid "Captcha timeout (seconds)"
-msgstr "कैप्चा टाइमआउट (सेकंड)"
+msgstr "'captchatime' => _('Captcha timeout (seconds)')"
 
 #: socialist_mediams.php:321
 msgid "Message timeout (minutes)"
-msgstr "संदेश टाईमआउट (मिनट)"
+msgstr "'messageexpire' => _('Message timeout (minutes)')"
 
 #: socialist_mediams.php:322
 msgid "Message limit (public)"
-msgstr "संदेश सीमा (सार्वजनिक)"
+msgstr "'messagelimit' => _('Message limit (public)')"
 
 #: socialist_mediams.php:323
 msgid "Maximal message length"
-msgstr "अधिकतम संदेश लंबाई"
+msgstr "'maxmessage' => _('Maximal message length')"
 
 #: socialist_mediams.php:324
-msgid "Maximal nickname length"
-msgstr "अधिकतम उपनाम लंबाई"
+msgid "Maximal usr length"
+msgstr "'maxname' => _('Maximal usr length')"
 
 #: socialist_mediams.php:325
 msgid "Minimal password length"
-msgstr "न्यूनतम पासवर्ड लंबाई"
+msgstr "'minpass' => _('Minimal password length')"
 
 #: socialist_mediams.php:326
 msgid "Default message reload time (seconds)"
-msgstr "डिफ़ॉल्ट संदेश रिलोड समय (सेकंड)"
+msgstr "_('Default message reload time (seconds)')"
 
 #: socialist_mediams.php:327
 msgid "Number of notes revisions to keep"
-msgstr "नोट्स रिविजन की संख्या"
+msgstr "_('Number of notes revisions to keep')"
 
 #: socialist_mediams.php:328
 msgid "Maximum upload size in KB"
-msgstr "अधिकतम अपलोड आकार KB में"
+msgstr "=> _('Maximum upload size in KB')"
 
 #: socialist_mediams.php:329
 msgid "Enable file uploads"
-msgstr "फ़ाइल अपलोड सक्षम करें"
+msgstr "'enfileupload' => _('Enable file uploads')"
 
 #: socialist_mediams.php:330
 msgid "Lowest refresh rate"
-msgstr "सबसे कम रिफ्रेश दर"
+msgstr "'min_refresh_rate' => _('minimum refresh rate')"
 
 #: socialist_mediams.php:331
 msgid "Highest refresh rate"
-msgstr "उच्चतम रिफ्रेश दर"
+msgstr "'max_refresh_rate' => _('Highest refresh rate')"
 
 #: socialist_mediams.php:334
-msgid "Rules (html)"
-msgstr "नियम (HTML)"
+msgid "$C['textarea_settings']=['rulestxt' => _('Rules (html)')"
 
 #: socialist_mediams.php:335
 msgid "CSS Style"
-msgstr "सी.एस.एस."
+msgstr "'css' => _('CSS Style')"
 
 #: socialist_mediams.php:336
 msgid "socialist_mediams disabled message (html)"
-msgstr "चैट अक्षम संदेश (HTML)"
+msgstr " _('Chat disabled message (html)')"
 
 #: socialist_mediams.php:339
-msgid ""
-"<a target=\"_blank\" href=\"https://php.net/manual/en/function.date."
-"php#refsect1-function.date-parameters\" rel=\"noopener noreferrer\">Date "
-"formating</a>"
-msgstr ""
-"<a target='_blank' href='https://php.net/manual/en/function.date."
-"php#refsect1-function.date-parameters' rel='noopener noreferrer'>दिनांक "
-"फोर्माटिंग</a>"
+msgid "text_settings"
+msgstr "=['dateformat' => _('<a target="_blank" href="https://php.net/manual/en/function.date.php#refsect1-function.date-parameters" rel="noopener noreferrer">Date formating</a>')"
 
-#: socialist_mediams.php:340
+#: socialist_mediams.php:348
 msgid "Characters used in Captcha"
-msgstr "कैप्चा में प्रयुक्त अक्षर"
+msgstr "'captchachars' => _('Characters used in Captcha')"
 
-#: socialist_mediams.php:341
+#: socialist_mediams.php:349
 msgid "Custom redirection script"
-msgstr "कस्टम पुनर्निर्देशन स्क्रिप्ट"
+msgstr "'redirect' => _('Custom redirection script')"
 
-#: socialist_mediams.php:342
+#: socialist_mediams.php:350
 msgid "socialist_mediams name"
-msgstr "चैट नाम"
+msgstr "'chatname' => _('Chat name')"
 
-#: socialist_mediams.php:343
+#: socialist_mediams.php:351
 msgid "Send mail using this address"
-msgstr "इस पते से मेल भेजें"
+msgstr "'mailsender' => _('Send mail using this address')"
 
-#: socialist_mediams.php:344
+#: socialist_mediams.php:352
 msgid "Send mail to this address"
-msgstr "इस पते पर मेल भेजें"
+msgstr "'mailreceiver' => _('Send mail to this address')"
 
-#: socialist_mediams.php:345
-msgid "Nickname regex"
-msgstr "उपनाम रेगेक्स"
+#: socialist_mediams.php:353
+msgid "usr regex"
+msgstr "'nickregex' => _('usr regex')"
 
-#: socialist_mediams.php:346
+#: socialist_mediams.php:354
 msgid "Password regex"
-msgstr "पासवर्ड रेगेक्स"
+msgstr "'passregex' => _('Password regex')"
 
 #: socialist_mediams.php:347
 msgid "Link to external CSS file (on your own server)"
-msgstr "बाहरी सीएसएस फ़ाइल से लिंक करें (अपने सर्वर पर)"
+msgstr "'externalcss' => _('inspector://www.google.com/maps/place/inspector-stylesheet'),'maps'"
 
-#: socialist_mediams.php:348
+#: socialist_mediams.php:355
 msgid "Meta description (best 50 - 160 characters for SEO)"
-msgstr "मेटा विवरण (एस.ई.ओ. के लिए सर्वोत्तम 50 - 160 अक्षर)"
+msgstr "'metadescription' => _('<meta content="chrome=1" http-equiv="X-UA-Compatible"> <meta content="notranslate" name="google"> <meta content="origin" name="referrer"> <meta content="ByHT0GXztW_RcGxS0o86DBf1WtNu02FfqlcT8njnSqU" name="google-site-verification"> <meta content="Diln__r3p9-tt39P2Cl2Amvx6oFB4PATnxuFBaw6ej8" name="google-site-verification"> )')"
 
-#: socialist_mediams.php:349
+#: socialist_mediams.php:358
 msgid "Prepend this text to system messages"
-msgstr "इस टेक्स्ट को सिस्टम संदेशों के साथ जोड़ें"
+msgstr "'sysmessagetxt' => _('Prepend this text to system messages')"
 
 #: socialist_mediams.php:352 socialist_mediams.php:771 socialist_mediams.php:1273
 msgid "Change Guestaccess"
-msgstr "गेस्ट एक्सेस बदलें"
+msgstr "'guestaccess' => _('Change Guestaccess')"
 
 #: socialist_mediams.php:353
 msgid "Enable global Password"
-msgstr "ग्लोबल पासवर्ड सक्षम करें"
+msgstr "'englobalpass' => _('Enable global Password')"
 
 #: socialist_mediams.php:354 socialist_mediams.php:801 socialist_mediams.php:2463 socialist_mediams.php:2481
 msgid "Global Password:"
-msgstr "ग्लोबल पासवर्ड:"
+msgstr "'globalpass' => _('Global Password:')"
 
 #: socialist_mediams.php:355 socialist_mediams.php:862
 msgid "Captcha"
-msgstr "कॅप्चा"
+msgstr "'captcha' => _('<script src="https://www.google.com/recaptcha/api.js"></script>')"
 
 #: socialist_mediams.php:356 socialist_mediams.php:818 socialist_mediams.php:878
 msgid "Only for guests"
-msgstr "केवल मेहमानों के लिए"
+msgstr "'dismemcaptcha' => _('Only for guests')"
 
 #: socialist_mediams.php:357 socialist_mediams.php:1268
 msgid "Topic"
-msgstr "विषय"
+msgstr "'topic' => _('Topic')"
 
 #: socialist_mediams.php:358 socialist_mediams.php:824
 msgid "Let guests register themselves"
-msgstr "मेहमानों को अपना पंजीकरण कराने दें"
+msgstr "'guestreg' => _('Let guests register themselves')"
 
 #: socialist_mediams.php:359 socialist_mediams.php:910
 msgid "Default time zone"
-msgstr "डिफ़ॉल्ट समय क्षेत्र"
+msgstr "'defaulttz' => _('Default time zone')"
 
-#: socialist_mediams.php:572 socialist_mediams.php:1148 socialist_mediams.php:4135 socialist_mediams.php:4316
+#: socialist_mediams.php:581 socialist_mediams.php:1148 socialist_mediams.php:4135 socialist_mediams.php:4316
 msgid "Initial Setup"
-msgstr "प्रारंभिक व्यवस्था"
-
-#: socialist_mediams.php:592
-#, php-format
-msgid "Redirecting to: %s"
-msgstr "इस पर पुनर्निर्देशित किया जा रहा है: %s"
-
-#: socialist_mediams.php:599
-#, php-format
-msgid ""
-"Dangerous non-http link requested, copy paste this link if you are really "
-"sure: %s"
-msgstr ""
-"असुरक्षित गैर-http लिंक का अनुरोध किया गया है, यदि आप वास्तव में आश्वस्त हैं तो इस लिंक को "
-"कॉपी पेस्ट करें: %s"
+msgstr "if($class==='init'){echo '<title>'._('Initial Setup').'</title>';"
 
 #: socialist_mediams.php:601
-#, php-format
+msgid ".sprintf Redirecting to: %s"
+msgstr "<a href=\"$match[0]$escaped\">$match[0]$escaped</a>")"
+
+#: socialist_mediams.php:608
+msgid "if(preg_match('~^(javascript|blob|data):~', $url))"
+msgstr "{echo '<p>'.sprintf(_('Dangerous non-http link requested, copy paste this link if you are really sure: %s')"
+
+#: socialist_mediams.php:601
 msgid "Non-http link requested: %s"
-msgstr "गैर-http लिंक का अनुरोध: %s"
+msgstr ""<a href=\"$match[0]$escaped\">$match[0]$escaped</a>")"
 
-#: socialist_mediams.php:603
-#, php-format
+#: socialist_mediams.php:610
 msgid "If it's not working, try this one: %s"
-msgstr "यदि यह काम नहीं कर रहा है, तो इसे आज़माएँ: %s"
+msgstr ""<a href=\"http://$escaped\">http://$escaped</a>")"
 
-#: socialist_mediams.php:613
+#: socialist_mediams.php:617
 msgid "Access denied"
-msgstr "पहुंच अस्वीकृत"
+msgstr "function send_access_denied():"
 
-#: socialist_mediams.php:613
-#, php-format
+#: socialist_mediams.php:622
 msgid "You are logged in as %s and don't have access to this section."
-msgstr "आप %s के रूप में लॉग इन हैं और इस सेक्शन तक आपकी पहुंच नहीं है।"
+msgstr "style_this(htmlspecialchars($U['usr'])"
 
 #: socialist_mediams.php:615 socialist_mediams.php:963 socialist_mediams.php:1259 socialist_mediams.php:1441
 msgid "Logout"
-msgstr "लॉग आउट"
+msgstr "'id="exitbutton"')."</form>";"
 
 #: socialist_mediams.php:640
 msgid "Copy:"
-msgstr "कॉपी:"
+msgstr "echo '<tr id="captcha"><td>'._('Copy:')"
 
-#: socialist_mediams.php:767
+#: socialist_mediams.php:775
 msgid "socialist_mediams Setup"
-msgstr "चैट सेटअप"
+msgstr "print_start('setup');"
 
 #: socialist_mediams.php:777 socialist_mediams.php:1281
 msgid "Allow"
-msgstr "अनुमति दें"
+msgstr "echo '>'._('Allow').'</option>';"
 
 #: socialist_mediams.php:782 socialist_mediams.php:1286
 msgid "Allow with waitingroom"
-msgstr "प्रतीक्षालय के साथ अनुमति दें"
+msgstr "._('Allow with waitingroom')."
 
 #: socialist_mediams.php:787 socialist_mediams.php:1291
 msgid "Require moderator approval"
-msgstr "मॉडरेटर के अनुमती की आवश्यकता है"
+msgstr "echo '>'._('Require moderator approval').'</option>';"
 
 #: socialist_mediams.php:792 socialist_mediams.php:1296
 msgid "Only members"
-msgstr "केवल सदस्य"
+msgstr "echo '>'._('Only members').'</option>';"
 
 #: socialist_mediams.php:797 socialist_mediams.php:1299
 msgid "Disable socialist_mediams"
-msgstr "चैट अक्षम करें"
+msgstr "echo '>'._('Disable socialist_mediams.php').'</option>';"
 
-#: socialist_mediams.php:808 socialist_mediams.php:830 socialist_mediams.php:885 socialist_mediams.php:944 socialist_mediams.php:2277
+#: socialist_mediams.php:817 socialist_mediams.php:830 socialist_mediams.php:885 socialist_mediams.php:944 socialist_mediams.php:2277
 msgid "Disabled"
-msgstr "अक्षम"
+msgstr "echo '>'._('Disabled').'</option>';"
 
-#: socialist_mediams.php:813 socialist_mediams.php:873 socialist_mediams.php:949 socialist_mediams.php:2267
+#: socialist_mediams.php:822 socialist_mediams.php:873 socialist_mediams.php:949 socialist_mediams.php:2267
 msgid "Enabled"
-msgstr "सक्रिय"
+msgstr "echo '>'._('Enabled').'</option>';"
 
-#: socialist_mediams.php:835
+#: socialist_mediams.php:844
 msgid "As applicant"
-msgstr "आवेदक के रूप में"
+msgstr "echo '>'._('As applicant').'</option>';"
 
-#: socialist_mediams.php:840
+#: socialist_mediams.php:849
 msgid "As member"
-msgstr "सदस्य के रूप में"
+msgstr "echo '>'._('As member').'</option>';"
 
-#: socialist_mediams.php:843
-msgid "System messages"
-msgstr "सिस्टम संदेश"
+#: socialist_mediams.php:852
+msgid "sys msgs"
+msgstr "echo '<tr><td><table id="sysmessages"><tr><th>'._('System messages').'</th><td>';"
 
-#: socialist_mediams.php:865 socialist_mediams.php:1101
-#, php-format
-msgid ""
-"The %s extension of PHP is required for this feature. Please install it "
-"first."
-msgstr "इस सुविधा के लिए PHP का %s एक्सटेंशन आवश्यक है। कृपया पहले इसे इंस्टॉल करें."
+#: socialist_mediams.php:865 socialist_mediams.php:1110
+msgid "php ext feat"
+msgstr "if(!extension_loaded('json')){echo '<tr><td>'.sprintf(_('The %s extension of PHP is required for this feature. Please install it first.'), 'json').'</td></tr>';"
 
-#: socialist_mediams.php:890
+#: socialist_mediams.php:899
 msgid "Simple"
-msgstr "सरल"
+msgstr "echo '>'._('Simple').'</option>';"
 
 #: socialist_mediams.php:895
 msgid "Moderate"
-msgstr "मध्यम"
+msgstr "echo '>'._('Moderate').'</option>';"
 
 #: socialist_mediams.php:900
 msgid "Hard"
-msgstr ""
+msgstr "echo '>'._('Hard').'</option>';"
 
 #: socialist_mediams.php:905
 msgid "Extreme"
-msgstr "ज्यादा"
+msgstr "echo '>'._('Extreme').'</option>';"
 
-#: socialist_mediams.php:954 socialist_mediams.php:1596 socialist_mediams.php:1658
+#: socialist_mediams.php:963 socialist_mediams.php:1596 socialist_mediams.php:1658
 msgid "Apply"
-msgstr "आवेदन करना"
+msgstr "echo '<tr><td>'.submit(_('Apply')).'</td></tr></table></form><br>';"
 
-#: socialist_mediams.php:958 socialist_mediams.php:1098
+#: socialist_mediams.php:967
 msgid "Backup and restore"
-msgstr "बैकअप और पुनर्स्थापना"
+msgstr "echo submit(_('Backup and restore')).'</form></td><td>';"
 
 #: socialist_mediams.php:960
 msgid "Destroy socialist_mediams"
-msgstr "चैट नष्ट करें"
+msgstr "echo submit(_('Destroy socialist_mediams'), 'class="delbutton"').'</form></td></tr></table><br>';"
 
-#: socialist_mediams.php:1105 socialist_mediams.php:1114
+#: socialist_mediams.php:1114
 msgid "Settings"
-msgstr "सेटिग्ज"
+msgstr "echo '<label><input type="checkbox" name="settings" id="backupsettings" value="1"'.$chksettings.'>'._('Settings').'</label>';"
 
-#: socialist_mediams.php:1106 socialist_mediams.php:1115 socialist_mediams.php:1260 socialist_mediams.php:1586 socialist_mediams.php:1623
-#: socialist_mediams.php:1670
+#: socialist_mediams.php:1115
 msgid "Filter"
-msgstr "फ़िल्टर"
+msgstr "echo '<label><input type="checkbox" name="filter" id="backupfilter" value="1"'.$chkfilters.'>'._('Filter').'</label>';"
 
-#: socialist_mediams.php:1107 socialist_mediams.php:1116 socialist_mediams.php:1316 socialist_mediams.php:2586
+#: socialist_mediams.php:1116
 msgid "Members"
-msgstr "सदस्य"
+msgstr "echo '<label><input type="checkbox" name="members" id="backupmembers" value="1"'.$chkmembers.'>'._('Members').'</label>';"
 
-#: socialist_mediams.php:1108 socialist_mediams.php:1117 socialist_mediams.php:2362 socialist_mediams.php:2370
-msgid "Notes"
-msgstr "नोटस"
-
-#: socialist_mediams.php:1109
-msgid "Backup"
-msgstr "बैकअप"
+#: socialist_mediams.php:1117
+msgstr "echo '<label><input type="checkbox" name="notes" id="backupnotes" value="1"'.$chknotes.'>'._('Notes').'</label>';"
 
 #: socialist_mediams.php:1118
-msgid "Restore"
-msgstr "रिस्टोर"
+msgid "Backup"
+msgstr "echo '</td><td id="backupsubmit">'.submit(_('Backup')).'</td></tr></table></form></td></tr>'; thr();"
 
-#: socialist_mediams.php:1122 socialist_mediams.php:1165 socialist_mediams.php:1203 socialist_mediams.php:1233 socialist_mediams.php:4317
+#: socialist_mediams.php:1121
+msgid "Restore"
+msgstr "echo '<table id="restore">';"
+
+#: socialist_mediams.php:1131
 msgid "Go to the Setup-Page"
-msgstr "सेटअप-पेज पर जाएँ"
+msgstr "thr();
+	echo '<tr><td>'.form('setup').submit(_('Go to the Setup-Page'), 'class="backbutton"')."</form></tr></td>";"
 
 #: socialist_mediams.php:1130 socialist_mediams.php:1139 socialist_mediams.php:1997
 msgid "Are you sure?"
-msgstr "क्या आपको यकीन है?"
+msgstr "echo '<table><tr><td colspan="2">'._('Are you sure?').'</td></tr><tr><td>';"
 
-#: socialist_mediams.php:1131 socialist_mediams.php:1140 socialist_mediams.php:2004
+#: socialist_mediams.php:1140
 msgid "Yes"
-msgstr "हाँ"
+msgstr ".submit(_('Yes')"
 
-#: socialist_mediams.php:1132 socialist_mediams.php:1141 socialist_mediams.php:2011
+#: socialist_mediams.php:1141
 msgid "No"
-msgstr "नहीं"
+msgstr ".submit(_('No')"
 
-#: socialist_mediams.php:1149 socialist_mediams.php:4316
+#: socialist_mediams.php:1159
 msgid "Superadmin Login"
-msgstr "सुपरएडमिन लॉगिन"
+msgstr "._('Superadmin Login')."
 
-#: socialist_mediams.php:1150
-msgid "Superadmin Nickname:"
-msgstr "सुपरएडमिन उपनाम:"
+#: socialist_mediams.php:1160
+msgid "Superadmin usr:"
+msgstr "._(Superadmin usr:')."
 
-#: socialist_mediams.php:1151
+#: socialist_mediams.php:1161
 msgid "Superadmin Password:"
-msgstr "सुपरएडमिन पासवर्ड:"
+msgstr "._('Superadmin Password:')."
 
-#: socialist_mediams.php:1152
+#: socialist_mediams.php:1162
 msgid "Confirm Password:"
-msgstr "पासवर्ड की पुष्टि कीजिये:"
+msgstr "echo '<tr><td>'._('Confirm Password:').'</td><td><input type="password" name="supassc" size="15" autocomplete="new-password"></td></tr>';"
 
 #: socialist_mediams.php:1153
 msgid "Initialise socialist_mediams"
-msgstr "चैट आरंभ करें"
+msgstr "echo '</table></td></tr><tr><td><br>'.submit(_('Initialise Chat')).'</td></tr></table></form>';"
 
 #: socialist_mediams.php:1154 socialist_mediams.php:1178 socialist_mediams.php:1204 socialist_mediams.php:2325 socialist_mediams.php:2487
 msgid "Change language:"
-msgstr "भाषा बदलें:"
+msgstr "echo '<p id="changelang">'._('Change language:');"
 
 #: socialist_mediams.php:1165
 msgid "Database successfully updated!"
-msgstr "डेटाबेस सफलतापूर्वक अपडेट किया गया!"
+msgstr "cho '<h2>'._('Database successfully updated!',).'</h2>"
 
 #: socialist_mediams.php:1173 socialist_mediams.php:1374 socialist_mediams.php:2455
-msgid "Nickname:"
-msgstr "उपनाम:"
+msgid "usr:"
+msgstr "echo '<tr><td>'._('usr')"
 
 #: socialist_mediams.php:1174 socialist_mediams.php:1375 socialist_mediams.php:2456
 msgid "Password:"
-msgstr "पासवर्ड:"
+msgstr "._('Password:')."
 
 #: socialist_mediams.php:1176
 msgid "Login"
-msgstr "लॉग इन करें"
+msgstr ".submit(_('Login'))"
 
 #: socialist_mediams.php:1177
 msgid "Forgot login?"
-msgstr "लॉगिन भूल गए?"
+msgstr "._('Forgot login?')."
 
 #: socialist_mediams.php:1190 socialist_mediams.php:1354
 msgid "Reset password"
-msgstr "पासवर्ड रीसेट"
+msgstr "print_start(sa_password_reset');"
 
 #: socialist_mediams.php:1198
-#, php-format
-msgid ""
-"Successfully reset password for username %s. Please remove the password "
-"reset define from the script again."
-msgstr ""
-"उपयोक्तानाम %s के लिए पासवर्ड सफलतापूर्वक रीसेट किया गया। कृपया स्क्रिप्ट से पासवर्ड "
-"रीसेट को दोबारा हटा दें।"
+msgid "RESET SHADOW ADMIN PWD"
+msgstr "if(defined('RESET_SUPERADMIN_PASSWORD') && !empty(RESET_SUPERADMIN_PASSWORD)){ $stmt = $db->query('SELECT usr FROM ' . PREFIX . 'members WHERE status = 8 LIMIT 1;');"
 
-#: socialist_mediams.php:1201
-msgid ""
-"Please modify the script and put the following at the bottom of it (change "
-"the password). Then refresh this page: define('RESET_SUPERADMIN_PASSWORD', "
-"'changeme');"
-msgstr ""
-"कृपया स्क्रिप्ट को मोडीफाय करें और उसके नीचे निम्नलिखित डालें (पासवर्ड बदलें)। फिर इस पृष्ठ "
-"को रिफ्रेश करें: define('RESET_SUPERADMIN_PASSWORD', 'changeme');"
+#: socialist_mediams.php:1210
+msgid "mod script pwd"
+msgstr "else {echo '<p>'._("Please modify the script and put the following at the bottom of it (change the password). Then refresh this page: define('RESET_SUPERADMIN_PASSWORD', 'changeme');").'</p>';}"
 
-#: socialist_mediams.php:1217 socialist_mediams.php:1241 socialist_mediams.php:1306 socialist_mediams.php:1318 socialist_mediams.php:1342
-#: socialist_mediams.php:1356 socialist_mediams.php:1364 socialist_mediams.php:2193 socialist_mediams.php:2201
-msgid "(choose)"
-msgstr "(चुनना)"
+#: socialist_mediams.php:1223 
+msgid "global var $u $db"
+msgstr "$chlist='<select name="name[]" size="5" multiple><option value="">'._('(choose)')."
 
-#: socialist_mediams.php:1218
+#: socialist_mediams.php:1227
 msgid "All guests"
-msgstr "सभी मेहमान"
+msgstr "$chlist.='<option value="s &#42;">'._('All guests').'</option>'; $users=[];"
 
 #: socialist_mediams.php:1230
 msgid "Administrative functions"
-msgstr "प्रशासनिक कार्य"
+msgstr "echo '<h2>'._('Administrative functions')."</h2><i>$arg</i><table>";"
 
 #: socialist_mediams.php:1236
 msgid "Clean messages"
-msgstr "संदेश हटा दे"
+msgstr "echo '<tr><td><table id="clean"><tr><th>'._('Clean messages').'</th><td>';"
 
 #: socialist_mediams.php:1239
 msgid "Whole room"
-msgstr "पूरी रूम"
+msgstr "echo _('Whole room').'</label></td><td>&nbsp;</td><td><label><input type="radio" name="what" id="choose" value="choose" checked>';"
 
 #: socialist_mediams.php:1240
 msgid "Selection"
-msgstr "चयन"
+msgstr "echo _('Selection').'</label></td><td>&nbsp;</td></tr><tr><td colspan="3"><label><input type="radio" name="what" id="nick" value="nick">';"
 
-#: socialist_mediams.php:1241
-msgid "Following nickname:"
-msgstr "निम्नलिखित उपनाम:"
+#: socialist_mediams.php:1251
+msgid "Following usr:"
+msgstr "echo _('Following usr:')."
 
-#: socialist_mediams.php:1248
+#: socialist_mediams.php:1257
 msgid "Clean"
-msgstr "साफ"
+msgstr "echo submit(_('Clean'), 'class="delbutton"').'</td></tr></table></form></td></tr></table></td></tr>';"
 
 #: socialist_mediams.php:1250
-#, php-format
 msgid "Kick socialist_mediamster (%d minutes)"
-msgstr "ज्यादा बाते करणे वाले को बाहर निकाले (%d मिनट)"
+msgstr "thr(); echo '<tr><td><table id="kick"><tr><th>'.sprintf(_('Kick Chatter (%d minutes)')"
 
 #: socialist_mediams.php:1252
 msgid "Kickmessage:"
-msgstr "किकमैसेज:"
+msgstr "._('Kickmessage')."
 
 #: socialist_mediams.php:1253
 msgid "Purge messages"
-msgstr "संदेशों को शुद्ध करें"
+msgstr "submit(_('Kick'))."
 
-#: socialist_mediams.php:1254 socialist_mediams.php:1436 socialist_mediams.php:1594 socialist_mediams.php:1628 socialist_mediams.php:1639
-#: socialist_mediams.php:2090
+#: socialist_mediams.php:1263
 msgid "Kick"
-msgstr "बाहर निकाले"
+msgstr "submit(_('Kick'))."
 
 #: socialist_mediams.php:1256
 msgid "Logout inactive socialist_mediamster"
-msgstr "लॉगआउट निष्क्रिय चैटर"
+msgstr "echo '<tr><td><table id="logout"><tr><th>'._('Logout inactive Chatter').'</th><td>';"
 
 #: socialist_mediams.php:1260
 msgid "View active sessions"
-msgstr "सक्रिय सेशन देखें"
+msgstr "$views=['sessions' => _('View active sessions')"
 
 #: socialist_mediams.php:1260 socialist_mediams.php:1651
 msgid "Linkfilter"
-msgstr "लिंकफ़िल्टर"
+msgstr "'filter' => _('Filter'), 'linkfilter' => _('Linkfilter')];"
 
 #: socialist_mediams.php:1265
 msgid "View"
-msgstr "विव्ह"
+msgstr "foreach($views as $view => $title){thr(); echo "<tr><td><table id=\"$view\"><tr><th>".$title.'</th><td>';"
 
-#: socialist_mediams.php:1271 socialist_mediams.php:1301 socialist_mediams.php:1352 socialist_mediams.php:1360 socialist_mediams.php:1630
-#: socialist_mediams.php:1674
+#: socialist_mediams.php:1280
 msgid "Change"
-msgstr "परिवर्तन"
+msgstr "echo submit(_('Change')).'</td></tr></table></form></td></tr></table></td></tr>';"
 
-#: socialist_mediams.php:1304
+#: socialist_mediams.php:1313
 msgid "Register applicant"
-msgstr "आवेदक का पंजीकरण करें"
+msgstr "<tr><th>'._('Register applicant').'</th><td>';"
 
-#: socialist_mediams.php:1312 socialist_mediams.php:1370 socialist_mediams.php:1376
+#: socialist_mediams.php:1321
 msgid "Register"
-msgstr "पंजीकरण करे"
+msgstr "echo '</select></td><td>'.submit(_('Register')).'</td></tr></table></form></td></tr></table></td></tr>';"
 
-#: socialist_mediams.php:1342
-msgid "Delete from database"
-msgstr "डेटाबेस से हटाएँ"
+#: socialist_mediams.php:1351
+msgid "del db"
+msgstr "echo '</select><select name="set" size="1"><option value="">'._('(choose)').'</option><option value="-">'._('Delete from database').'</option><option value="0">'._('Deny access (!)').'</option>';"
 
 #: socialist_mediams.php:1342
 msgid "Deny access (!)"
-msgstr "पहुँच को अस्वीकार (!)"
+msgstr "<option value="0">'._('Deny access (!)').'</option>';"
 
 #: socialist_mediams.php:1344
 msgid "Set to applicant (SG)"
-msgstr "आवेदक पर सेट करें (SG)"
+msgstr "'<option value="2">'._('Set to applicant (SG)').'</option>';"
 
 #: socialist_mediams.php:1346
 msgid "Set to regular member"
-msgstr "नियमित सदस्य पर सेट करें"
+msgstr "echo '<option value="3">'._('Set to regular member').'</option>';"
 
 #: socialist_mediams.php:1347
 msgid "Set to moderator (M)"
-msgstr "मॉडरेटर पर सेट करें (M)"
+msgstr "echo '<option value="5">'._('Set to moderator (M)').'</option>';"
 
 #: socialist_mediams.php:1348
 msgid "Set to supermod (SM)"
-msgstr "सुपरमॉड पर सेट करें (SM)"
+msgstr "echo '<option value="6">'._('Set to supermod (SM)').'</option>';"
 
 #: socialist_mediams.php:1350
 msgid "Set to admin (A)"
-msgstr "व्यवस्थापक पर सेट करें (A)"
+msgstr "echo '<option value="7">'._('Set to admin (A)').'</option>';"
 
 #: socialist_mediams.php:1362
 msgid "Register Guest"
-msgstr "अतिथि पंजीकृत करें"
+msgstr "thr(); echo '<tr><td><table id="register"><tr><th>'._('Register Guest').'</th><td>';"
 
 #: socialist_mediams.php:1372
 msgid "Register new Member"
-msgstr "नये सदस्य का पंजीकरण करें"
+msgstr "thr();
+		echo '<tr><td><table id="regnew"><tr><th>'._('Register new Member').'</th></tr><tr><td>';"
 
-#: socialist_mediams.php:1380 socialist_mediams.php:1456 socialist_mediams.php:1643 socialist_mediams.php:1684 socialist_mediams.php:1758
-#: socialist_mediams.php:1972
+#: socialist_mediams.php:1389
 msgid "Reload"
-msgstr "पुनः लोड करें"
+msgstr "echo form('admin').submit(_('Reload')).'</form>';"
 
 #: socialist_mediams.php:1393
 msgid "Active Sessions"
-msgstr "सक्रिय सेशन"
+msgstr "echo '<h1>'._('Active Sessions').'</h1><table>';"
 
 #: socialist_mediams.php:1394 socialist_mediams.php:1921
-msgid "Nickname"
-msgstr "उपनाम"
+msgid "usr"
+msgstr "echo '<tr><th>'._('usr').'</th>"
 
 #: socialist_mediams.php:1394
 msgid "Timeout in"
-msgstr "टाईमआउट इन"
+msgstr "<th>'._('Timeout in').'</th>"
 
 #: socialist_mediams.php:1394 socialist_mediams.php:1921
 msgid "User-Agent"
-msgstr "उपयोगकर्ता एजेंट"
+msgstr "<th>'._('User-Agent').'</th>';"
 
 #: socialist_mediams.php:1398
 msgid "IP-Address"
-msgstr "आईपी अड्रेस"
+msgstr "if($trackip) echo '<th>'._('IP-Address').'</th>';"
 
 #: socialist_mediams.php:1399
 msgid "Actions"
-msgstr "कार्रवाई"
+msgstr "echo '<th>'._('Actions').'</th></tr>';"
 
-#: socialist_mediams.php:1441
+#: socialist_mediams.php:1450
 msgid "Unban"
-msgstr "अप्रतिबंधित करें"
+msgstr "echo hidden('logout', '1').hidden('nick', htmlspecialchars($temp['usr'])).submit($temp['status']==0 ? _('Unban') : _('Logout')).'</form>';"
 
 #: socialist_mediams.php:1464
 msgid "Incorrect regular expression!"
-msgstr "ग़लत रेगुलर एक्सप्रेशन!"
+msgstr "return _('Incorrect regular expression!')."
 
 #: socialist_mediams.php:1464 socialist_mediams.php:1472
-#, php-format
 msgid "Your match was as follows: %s"
-msgstr "आपका मिलान इस प्रकार था: %s"
+msgstr ".sprintf(_('Your match was as follows: %s'),"
 
 #: socialist_mediams.php:1472
-msgid ""
-"Your match was too long. You can use max. 255 characters. Try splitting it "
-"up."
-msgstr ""
-"आपका मैच बहुत लंबा था. आप अधिकतम 255 अक्षर उपयोग कर सकते हैं. इसे विभाजित करने का "
-"प्रयास करें।"
+msgid "regex"
+msgstr "_('Your match was too long. You can use max. 255 characters. Try splitting it up.')."<br>".sprintf(_('Your match was as follows: %s')"
 
-#: socialist_mediams.php:1589 socialist_mediams.php:1654
+#: socialist_mediams.php:1598 
 msgid "Filter ID:"
-msgstr "फ़िल्टर आईडी:"
+msgstr "echo '<td>'._('Filter ID:').'</td>';"
 
-#: socialist_mediams.php:1590 socialist_mediams.php:1655
+#: socialist_mediams.php:1599
 msgid "Match"
-msgstr "मिलान"
+msgstr "echo '<td>'._('Match').'</td>';"
 
-#: socialist_mediams.php:1591 socialist_mediams.php:1656
+#: socialist_mediams.php:1600
 msgid "Replace"
-msgstr "रिप्लेस करें"
+msgstr "echo '<td>'._('Replace').'</td>';"
 
-#: socialist_mediams.php:1592 socialist_mediams.php:1626 socialist_mediams.php:1637
+#: socialist_mediams.php:1601
 msgid "Allow in PM"
-msgstr "पीएम में अनुमति दें"
+msgstr "echo '<td>'._('Allow in PM').'</td>';"
 
-#: socialist_mediams.php:1593 socialist_mediams.php:1627 socialist_mediams.php:1638 socialist_mediams.php:1657 socialist_mediams.php:1673
-#: socialist_mediams.php:1681
-msgid "Regex"
-msgstr "regex"
+#: socialist_mediams.php:1602
+msgid "echo td ._"
+msgstr "echo '<td>'._('Regex').'</td>';"
 
 #: socialist_mediams.php:1595 socialist_mediams.php:1629 socialist_mediams.php:1640
 msgid "Case sensitive"
-msgstr "केस सेन्सेटिव्ह"
+msgstr "echo '<td>'._('Case sensitive').'</td>';"
 
 #: socialist_mediams.php:1634 socialist_mediams.php:1678
 msgid "New filter:"
-msgstr "नया फ़िल्टर:"
+msgstr "echo '<table><tr><td>'._('New filter:').'</td>';"
 
 #: socialist_mediams.php:1641 socialist_mediams.php:1682
 msgid "Add"
-msgstr "जोडे"
+msgstr "echo '<td class="filtersubmit">'.submit(_('Add')).'</td></tr></table></form></td></tr>';"
 
-#: socialist_mediams.php:1739
-msgid ""
-"This socialist_mediams uses <b>frames</b>. Please enable frames in your browser or use a "
-"suitable one!"
-msgstr ""
-"यह चैट <b>frames</b> का उपयोग करती है. कृपया अपने ब्राउज़र में फ़्रेम सक्षम करें या उपयुक्त "
-"ब्राउज़र का उपयोग करें!"
+#: socialist_mediams.php:1748
+msgid "noframe"
+msgstr "function noframe_html() : string {return _('This chat uses <b>frames</b>. Please enable frames in your browser or use a suitable one!').form_target('_parent', '').submit(_('Back to the login page.'), 'class="backbutton"').'</form>';}"
 
 #: socialist_mediams.php:1739 socialist_mediams.php:2418 socialist_mediams.php:2505
 msgid "Back to the login page."
-msgstr "लॉगिन पेज पर वापस जाएँ।"
+msgstr ".submit(_('Back to the login page.'), 'class="backbutton"').'</form>'; print_end();"
 
 #: socialist_mediams.php:1757
 msgid "Bottom"
-msgstr "नीचे"
+msgstr "echo '<a id="bottom_link" href="#bottom">'._('Bottom').'</a>';"
 
 #: socialist_mediams.php:1758
 msgid "Manual refresh required"
-msgstr "मैन्युअल रिफ्रेश आवश्यक है"
+msgstr "echo '<div id="manualrefresh"><br>'._('Manual refresh required')."
 
-#: socialist_mediams.php:1774
+#: socialist_mediams.php:1783
 msgid "Top"
-msgstr "उपर"
+msgstr "echo '<a id="bottom"></a><a id="top_link" href="#top">'._('Top').'</a>'; print_end();"
 
 #: socialist_mediams.php:1782 socialist_mediams.php:1988 socialist_mediams.php:1990
 msgid "Delete selected messages"
-msgstr "चयनित संदेश हटाएँ"
+msgstr ".submit(_('Delete selected messages'), 'class="delbutton"').'"
 
 #: socialist_mediams.php:1809 socialist_mediams.php:1936 socialist_mediams.php:2149 socialist_mediams.php:2329
 msgid "Back to the socialist_mediams."
-msgstr "चैट पर वापस जाएँ।"
+msgstr ".form('view').submit(_('Back to the chat.'), 'class="backbutton"').'</form>'"
 
 #: socialist_mediams.php:1822 socialist_mediams.php:1839
 msgid "Admin notes"
-msgstr "व्यवस्थापक नोट"
+msgstr ".submit(_('Admin notes'))."
 
 #: socialist_mediams.php:1825 socialist_mediams.php:1836
 msgid "Staff notes"
-msgstr "स्टाफ नोट्स"
+msgstr ".submit(_('Staff notes'))."
 
 #: socialist_mediams.php:1859
 msgid "Notes saved!"
-msgstr "नोट सहेजे गए!"
+msgstr "echo '<b>'._('Notes saved!')."
 
 #: socialist_mediams.php:1883 socialist_mediams.php:2170
-#, php-format
 msgid "Last edited by %1$s at %2$s"
-msgstr "अंतिम बार %1$s द्वारा %2$s पर संपादित किया गया"
+msgstr "if($note=$stmt->fetch(PDO::FETCH_ASSOC)){printf(_('Last edited by %1$s at %2$s')"
 
 #: socialist_mediams.php:1896
 msgid "Save notes"
-msgstr "नोट्स सहेजें"
+msgstr "echo submit(_('Save notes'))."
 
 #: socialist_mediams.php:1898
 msgid "Revisions:"
-msgstr "रिव्हीजन:"
+msgstr "echo '<br><table><tr><td>'._('Revisions:').'</td>';"
 
 #: socialist_mediams.php:1901
 msgid "Older"
-msgstr "पुराने"
+msgstr "echo $hiddendo.submit(_('Older'))."
 
 #: socialist_mediams.php:1905
 msgid "Newer"
-msgstr "नये"
+msgstr "echo $hiddendo.submit(_('Newer'))."
 
 #: socialist_mediams.php:1916 socialist_mediams.php:1962
 msgid "Waiting room"
-msgstr "प्रतीक्षालय"
+msgstr "print_start('approve_waiting'); echo '<h2>'._('Waiting room').'</h2>';"
 
 #: socialist_mediams.php:1928
 msgid "Allow checked"
-msgstr "अनुमति की जाँच की गई"
+msgstr "echo '</table><br><table id="action"><tr><td><label><input type="radio" name="what" value="allowchecked" id="allowchecked" checked>'._('Allow checked').'</label></td>';"
 
 #: socialist_mediams.php:1929
 msgid "Allow all"
-msgstr "सभी को अनुमति दें"
+msgstr "echo '<td><label><input type="radio" name="what" value="allowall" id="allowall">'._('Allow all').'</label></td>';"
 
 #: socialist_mediams.php:1930
 msgid "Deny checked"
-msgstr "चयनित को इनकार करे"
+msgstr "echo '<td><label><input type="radio" name="what" value="denychecked" id="denychecked">'._('Deny checked').'</label></td>';"
 
 #: socialist_mediams.php:1931
 msgid "Deny all"
-msgstr "सभी को नकारें"
+msgstr "._('Deny all')."
 
 #: socialist_mediams.php:1931
 msgid "Send message to denied:"
-msgstr "अस्वीकृत को संदेश भेजें:"
+msgstr "._('Send message to denied:')."
 
 #: socialist_mediams.php:1932
 msgid "Submit"
-msgstr "सबमिट"
+msgstr ".submit(_('Submit')).'</td></tr></table></form>';"
 
 #: socialist_mediams.php:1934
 msgid "No more entry requests to approve."
-msgstr "अनुमोदन के लिए कोई और प्रविष्टि अनुरोध नहीं।"
+msgstr "echo _('No more entry requests to approve.')."
 
-#: socialist_mediams.php:1964
-#, php-format
-msgid ""
-"Welcome %1$s, your login has been delayed, you can access the socialist_mediams in %2$d "
-"seconds."
-msgstr ""
-"आपका स्वागत है %1$s, आपके लॉगिन में देरी हो गई है, आप %2$d सेकंड में चैट तक पहुंच सकते हैं।"
+#: socialist_mediams.php:1973
+msgid "ip farm"
+msgstr "if($wait){printf(_('Welcome %1$s, your login has been delayed, you can access the chat in %2$d seconds.')"
 
-#: socialist_mediams.php:1966
-#, php-format
-msgid ""
-"Welcome %1$s, your login has been delayed, you can access the socialist_mediams as soon, "
-"as a moderator lets you in."
-msgstr ""
-"आपका स्वागत है %1$s, आपके लॉगिन में देरी हो गई है, जैसे ही मॉडरेटर आपको अंदर आने देगा आप "
-"चैट तक पहुंच सकते हैं।"
+#: socialist_mediams.php:1975
+msgid "ip farm 0.0"
+msgstr "if($wait){printf(_('Welcome %1$s, your login has been delayed, you can access the chat in %2$d seconds.'), style_this(htmlspecialchars($U['usr']), $U['style']), $timeleft);}else{printf(_('Welcome %1$s, your login has been delayed, you can access the chat as soon, as a moderator lets you in.'), style_this(htmlspecialchars($U['usr']), $U['style']));}"
 
 #: socialist_mediams.php:1969
-#, php-format
-msgid ""
-"If this page doesn't refresh every %d seconds, use the button below to "
-"reload it manually!"
-msgstr ""
-"यदि यह पृष्ठ प्रत्येक %d सेकंड में ताज़ा नहीं होता है, तो इसे मैन्युअल रूप से पुनः लोड करने के "
-"लिए नीचे दिए गए बटन का उपयोग करें!"
+msgid "refresh"
+msgstr "echo '</p><br><p>'; printf(_("If this page doesn't refresh every %d seconds, use the button below to reload it manually!"), $refresh);"
 
 #: socialist_mediams.php:1974 socialist_mediams.php:2387
 msgid "Exit socialist_mediams"
-msgstr "चैट से बाहर निकलें"
+msgstr "echo submit(_('Exit socialist_mediams'), 'id="exitbutton"').'</form>';"
 
 #: socialist_mediams.php:1977 socialist_mediams.php:2122 socialist_mediams.php:2133 socialist_mediams.php:2478
 msgid "Rules"
-msgstr "नियम"
+msgstr "$rulestxt=get_setting('rulestxt');"
 
 #: socialist_mediams.php:2033
 msgid "Send to"
-msgstr "इनको भेजे"
+msgstr "echo '<td>'.submit(_('Send to')).'</td><td><select name="sendto" size="1">';"
 
 #: socialist_mediams.php:2038
 msgid "All socialist_mediamsters"
-msgstr "सभी ज्यादा बाते करणे वाले"
+msgstr "echo 'value="s *">-'._('All ip's').'-</option>';"
 
 #: socialist_mediams.php:2044
 msgid "Members only"
-msgstr "केवल सदस्य"
+msgstr "echo 'value="s ?">-'._('Members only').'-</option>';"
 
 #: socialist_mediams.php:2051
 msgid "Staff only"
-msgstr "केवल स्टाफ"
+msgstr "echo 'value="s %">-'._('Staff only').'-</option>';"
 
 #: socialist_mediams.php:2058
 msgid "Admin only"
-msgstr "केवल व्यवस्थापक"
+msgstr "echo 'value="s _">-'._('Admin only').'-</option>';"
 
 #: socialist_mediams.php:2067
-msgid "(offline)"
-msgstr "(ऑफ़लाइन)"
+msgid "$sql"
+msgstr "$disablepm=(bool) get_setting('disablepm'); if(!$disablepm){$users=[]; $stmt=$db->prepare('SELECT * FROM (SELECT usr, style, exiting, 0 AS offline FROM ' . PREFIX . 'sessions WHERE entry!=0 AND status>0 AND incognito=0 UNION SELECT usr, style, 0, 1 AS offline FROM ' . PREFIX . 'members WHERE eninbox!=0 AND eninbox<=? AND usr NOT IN (SELECT usr FROM ' . PREFIX . 'sessions WHERE incognito=0)) AS t WHERE usr NOT IN (SELECT ign FROM '. PREFIX . 'ignored WHERE ignby=? UNION SELECT ignby FROM '. PREFIX . 'ignored WHERE ign=?) ORDER BY LOWER(usr);');"
 
 #: socialist_mediams.php:2091
 msgid "Also purge messages"
-msgstr "संदेशों को भी निकाल दे"
+msgstr "._('Also purge messages').'</label></td>';"
 
 #: socialist_mediams.php:2098
 msgid "Delete last message"
-msgstr "अंतिम संदेश हटाएँ"
+msgstr "echo submit(_('Delete last message')"
 
 #: socialist_mediams.php:2103
 msgid "Delete all messages"
-msgstr "सभी संदेश हटाएँ"
+msgstr "echo submit(_('Delete all messages')"
 
 #: socialist_mediams.php:2105
 msgid "Switch to single-line"
-msgstr "सिंगल-लाईन पर स्विच करें"
+msgstr "echo submit(_('Switch to single-line'));"
 
 #: socialist_mediams.php:2107
 msgid "Switch to multi-line"
-msgstr "मल्टी-लाइन पर स्विच करें"
+msgstr "echo hidden('multi', 'on').submit(_('Switch to multi-line'));"
 
 #: socialist_mediams.php:2118
-#, php-format
-msgid "Welcome %s!"
-msgstr "%s आपका स्वागत हैं!"
+msgid "global%s!"
+msgstr "print_start('greeting', (int)"
 
 #: socialist_mediams.php:2119
-#, php-format
-msgid ""
-"If this frame does not reload in %d seconds, you'll have to enable automatic "
-"redirection (meta refresh) in your browser. Also make sure no web filter, "
-"local proxy tool or browser plugin is preventing automatic refreshing! This "
-"could be for example \"Polipo\", \"NoScript\", etc.<br>As a workaround (or "
-"in case of server/proxy reload errors) you can always use the buttons at the "
-"bottom to refresh manually."
-msgstr ""
-"यदि यह फ़्रेम %d सेकंड में पुनः लोड नहीं होता है, तो आपको अपने ब्राउज़र में स्वचालित "
-"पुनर्निर्देशन (मेटा रिफ्रेश) सक्षम करना होगा। यह भी सुनिश्चित करें कि कोई वेब फ़िल्टर, "
-"स्थानीय प्रॉक्सी टूल या ब्राउज़र प्लगइन स्वचालित रीफ़्रेशिंग को नहीं रोक रहा है! यह उदाहरण "
-"के लिए \"पोलिपो\", \"नोस्क्रिप्ट\", आदि हो सकता है।<br>एक समाधान के रूप में (या सर्वर/"
-"प्रॉक्सी पुनः लोड त्रुटियों के मामले में) आप मैन्युअल रूप से रीफ्रेश करने के लिए हमेशा नीचे दिए "
-"गए बटन का उपयोग कर सकते हैं।"
+msgid "srvr kubs msg"
+msgstr "$U['refresh'], "$_SERVER[SCRIPT_NAME]?action=view&session=$U[session]&lang=$language");"
 
 #: socialist_mediams.php:2135
 msgid "Help"
-msgstr "मदद"
+msgstr "print_start('help');"
 
 #: socialist_mediams.php:2136
-msgid ""
-"All functions should be pretty much self-explaining, just use the buttons. "
-"In your profile you can adjust the refresh rate and font colour, as well as "
-"ignore users.<br><u>Note:</u> This is a socialist_mediams, so if you don't keep talking, "
-"you will be automatically logged out after a while."
-msgstr ""
-"सभी फ़ंक्शन काफी हद तक स्व-व्याख्यात्मक होने चाहिए, बस बटनों का उपयोग करें। अपनी "
-"प्रोफ़ाइल में आप रिफ्रेश दर और फ़ॉन्ट रंग समायोजित कर सकते हैं, साथ ही उपयोगकर्ताओं को "
-"अनदेखा कर सकते हैं।<br><u>नोट:</u> यह एक चैट है, इसलिए यदि आप बात नहीं करते हैं, तो आप "
-"थोड़ी देर बाद अपनेआप लॉग आउट हो जाएंगे।"
+msgid "funct"
+msgstr "echo '<h2>'._('Help').'</h2>';"
 
 #: socialist_mediams.php:2138
-msgid ""
-"If you want to embed an image in your post, simply put [img] in front of "
-"your image URL. Example: [img]http://example.com/images/file.jpg will embed "
-"the image in your post."
-msgstr ""
-"यदि आप अपनी पोस्ट में कोई फोटो एम्बेड करना चाहते हैं, तो बस अपनी फोटो URL के सामने "
-"[img] लगाएं। उदाहरण: [img]http://example.com/images/file.jpg आपकी पोस्ट में फोटो "
-"एम्बेड करेगा।"
+msgid "http://socialist_mediams.onion/img/fs.jpg"
+msgstr "if(get_setting('imgembed')){echo '<br>'"
 
 #: socialist_mediams.php:2141
-msgid ""
-"Members: You'll have some more options in your profile. You can adjust your "
-"font face, change your password anytime and of course you can delete your "
-"account."
-msgstr ""
-"सदस्य: आपकी प्रोफ़ाइल में कुछ और विकल्प होंगे। आप अपना फ़ॉन्ट फेस बदल सकते हैं, अपना पासवर्ड "
-"कभी भी बदल सकते हैं और निश्चित रूप से आप अपना खाता हटा सकते हैं।"
+msgid "socialist_creditor"
+msgstr ""if($U['status']>=3)"
 
 #: socialist_mediams.php:2143
-msgid ""
-"Moderators: Notice the Admin-button at the bottom. It'll bring up a page "
-"where you can clean the room, kick socialist_mediamsters, view all active sessions and "
-"disable guest access completely if needed."
-msgstr ""
-"मॉडरेटर: नीचे एडमिन-बटन पर ध्यान दें। यह एक पृष्ठ लाएगा जहां आप रूम को साफ कर सकते हैं, "
-"चैटर्स को रोक सकते हैं, सभी सक्रिय सत्र देख सकते हैं और यदि आवश्यक हो तो अतिथि पहुंच को "
-"पूरी तरह से अक्षम कर सकते हैं।"
+msgid "shadow mods"
+msgstr "if($U['status']>=5{echo...'<br>'._("
 
 #: socialist_mediams.php:2145
-msgid ""
-"Admins: You'll be furthermore able to register guests, edit members and "
-"register new nicknames."
-msgstr ""
-"व्यवस्थापक: आप मेहमानों को पंजीकृत करने, सदस्यों को संपादित करने और नए उपनाम पंजीकृत करने "
-"में भी सक्षम होंगे।"
+msgid "shadow admin"
+msgstr "if($U['status']>=7{echo'<br>'._("admins may mine crypto")"
 
 #: socialist_mediams.php:2183
 msgid "Your Profile"
-msgstr "आपकी प्रोफ़ाइल"
+msgstr "echo form('profile', 'save').'<h2>'._('Your Profile')."</h2><i>$arg</i><table>";"
 
 #: socialist_mediams.php:2192
 msgid "Don't ignore anymore"
-msgstr "और नजरअंदाज न करें"
+msgstr "<tr><th>'._("Don't ignore anymore").'</th><td>';"
 
 #: socialist_mediams.php:2200
 msgid "Ignore"
-msgstr "अनदेखा करना"
+msgstr "echo '<tr><td><table id="ignore"><tr><th>'._('Ignore').'</th><td>';"
 
-#: socialist_mediams.php:2211
-#, php-format
+#: socialist_mediams.php:2222
 msgid "Refresh rate (%1$d-%2$d seconds)"
-msgstr "रिफ्रेश दर (%1$d-%2$d सेकंड)"
+msgstr "echo '<tr><td><table id="refresh"><tr><th>'.sprintf(_('Refresh rate (%1$d-%2$d seconds)')"
 
-#: socialist_mediams.php:2215 socialist_mediams.php:2218
+#: socialist_mediams.php:2225
 msgid "View examples"
-msgstr "उदाहरण देखें"
+msgstr "thr(); preg_match'/#([0-9a-f]{6})/i', $U['style'], $matches);"
 
 #: socialist_mediams.php:2222
 msgid "Fontface"
-msgstr "फॉन्ट फ़ेस"
+msgstr "echo '<tr><td><table id="font"><tr><th>'._('Fontface').'</th><td><table>';"
 
 #: socialist_mediams.php:2223
 msgid "Room Default"
-msgstr "रूम डिफ़ॉल्ट"
+msgstr "echo '<tr><td>&nbsp;</td><td><select name="font" size="1"><option value="">* '._('Room Default').' *</option>';"
 
 #: socialist_mediams.php:2236
 msgid "Bold"
-msgstr "बोल्ड"
+msgstr "echo '><b>'._('Bold')."
 
 #: socialist_mediams.php:2240
 msgid "Italic"
-msgstr "तिरछा"
+msgstr "echo '><i>'._('Italic')."
 
 #: socialist_mediams.php:2244
 msgid "Small"
-msgstr "छोटा"
+msgstr "echo '><small>'._('Small').'</small>"
 
 #: socialist_mediams.php:2247
 msgid "Example for your chosen font"
-msgstr "आपके चुने हुए फ़ॉन्ट के लिए उदाहरण"
+msgstr ""._('Example for your chosen font')"
 
 #: socialist_mediams.php:2251
 msgid "Autoscroll (for old browsers or top-to-bottom sort)."
-msgstr "ऑटोस्क्रॉल (पुराने ब्राउज़र या ऊपर से नीचे क्रम के लिए)।"
+msgstr "'nocache' => _('Autoscroll (for old browsers or top-to-bottom sort).')"
 
 #: socialist_mediams.php:2282
 msgid "For everyone"
-msgstr "सभी के लिए"
+msgstr "echo '>'._('For everyone')"
 
 #: socialist_mediams.php:2287
 msgid "For members only"
-msgstr "केवल सदस्यों के लिए"
+msgstr "echo '>'._('For members only')."
 
 #: socialist_mediams.php:2292
 msgid "For staff only"
-msgstr "केवल स्टाफ के लिए"
+msgstr "echo '>'._('For staff only')."
 
 #: socialist_mediams.php:2296
 msgid "Time zone"
-msgstr "समय क्षेत्र"
+msgstr "echo '<tr><td><table id="tz"><tr><th>'._('Time zone').'</th><td>';"
 
-#: socialist_mediams.php:2309
+#: socialist_mediams.php:2319
 msgid "Change Password"
-msgstr "पासवर्ड बदलें"
+msgstr "if($U['status']>=2){echo '<tr><td><table id="changepass"><tr><th>'._('Change Password').'</th></tr>';"
 
 #: socialist_mediams.php:2311
 msgid "Old password:"
-msgstr "पुराना पासवर्ड:"
+msgstr "echo '<tr><td>&nbsp;</td><td>'._('Old password:').'</td><td>"
 
 #: socialist_mediams.php:2312
 msgid "New password:"
-msgstr "नया पासवर्ड:"
+msgstr "echo '<tr><td>&nbsp;</td><td>'._('New password:').'</td><td>"
 
 #: socialist_mediams.php:2313
 msgid "Confirm new password:"
-msgstr "नए पासवर्ड की पुष्टि करें:"
+msgstr "echo '<tr><td>&nbsp;</td><td>'._('Confirm new password:').'</td><td>"
 
 #: socialist_mediams.php:2316
-msgid "Change Nickname"
-msgstr "उपनाम बदलें"
+msgid "Change usr"
+msgstr "echo '<tr><td><table id="changenick"><tr><th>'._('Change usr').'</th><td><table>';"
 
 #: socialist_mediams.php:2317
-msgid "New nickname:"
-msgstr "नया उपनाम:"
+msgid "New usr:"
+msgstr "echo '<tr><td>&nbsp;</td><td>'._('New usr:').'</td><td>"
 
 #: socialist_mediams.php:2321
 msgid "Save changes"
-msgstr "परिवर्तनों को सुरक्षित करें"
+msgstr "echo '<tr><td>'.submit(_('Save changes')).'</td></tr></table></form>';"
 
 #: socialist_mediams.php:2323
 msgid "Delete account"
-msgstr "खाता हटाये"
+msgstr "echo '<br>'.form('profile', 'delete').submit(_('Delete account'), 'class="delbutton"').'</form>';"
 
 #: socialist_mediams.php:2349
 msgid "Reload Post Box"
-msgstr "पोस्ट बॉक्स पुनः लोड करें"
+msgstr "echo '<td>' . form_target( 'post', 'post' ) . submit( _('Reload Post Box') ) . '</form></td>';"
 
 #: socialist_mediams.php:2352
 msgid "Reload Messages"
-msgstr "संदेश पुनः लोड करें"
+msgstr "_('Hide reload messages button'), 'hide_profile' => _('Hide profile button')"
 
 #: socialist_mediams.php:2355
 msgid "Profile"
-msgstr "प्रोफ़ाइल"
+msgstr ".form('profile')"
 
 #: socialist_mediams.php:2359 socialist_mediams.php:2576
 msgid "Admin"
-msgstr "व्यवस्थापक"
+msgstr "echo form('admin')"
 
 #: socialist_mediams.php:2366
 msgid "View public notes"
-msgstr "सार्वजनिक नोट देखें"
+msgstr "if($publicnotes){echo '<td>'.form_target('view', 'viewpublicnotes').submit(_('View public notes')).'</form></td>';}"
 
 #: socialist_mediams.php:2373
 msgid "Clone"
-msgstr "क्लोन"
+msgstr "(!$hide_clone)"
 
 #: socialist_mediams.php:2382
 msgid "Rearrange"
-msgstr "रिअर्रेंज"
+msgstr "if(!$hide_rearrange) {echo '<td>' . form_target( '_parent', 'login' ) . hidden( 'sort', $sort ) . submit( _('Rearrange') ) . '</form></td>';"
 
 #: socialist_mediams.php:2385
 msgid "Rules & Help"
-msgstr "नियम एवं सहायता"
+msgstr ". submit( _('Rules & Help') ) . '</form></td>';"
 
 #: socialist_mediams.php:2406 socialist_mediams.php:2410
 msgid "File not found!"
-msgstr "फ़ाइल प्राप्त नहीं हुई!"
+msgstr "else{http_response_code(404);send_error(_('File not found!'));}}else{http_response_code(404); send_error(_('File not found!'));}}"
 
 #: socialist_mediams.php:2418
-#, php-format
 msgid "Bye %s, visit again soon!"
-msgstr "अलविदा %s, जल्द वापस आएँ!"
+msgstr "echo '<h1>'.sprintf(_('Bye %s, visit again soon!')"
 
 #: socialist_mediams.php:2425
 msgid "Colourtable"
-msgstr "रंग-बिरंगा"
+msgstr "echo '<h2>'._('Colourtable').'</h2><kbd><b>';"
 
 #: socialist_mediams.php:2436
 msgid "Back to your Profile"
-msgstr "अपनी प्रोफ़ाइल पर वापस जाएँ"
+msgstr ".submit(_('backwards redirection')"
 
 #: socialist_mediams.php:2460
 msgid "Repeat password<br>to register"
-msgstr "रजिस्टर करने के लिए<br> पासवर्ड दोहराएं"
+msgstr "if(get_setting('guestreg')!=0){echo '<tr><td>'._('Repeat password<br>to register').'</td>"
 
 #: socialist_mediams.php:2460
-msgid "(optional)"
-msgstr "(वैकल्पिक)"
+msgid "if(get_setting)"
+msgstr "{echo '<tr><td>'._('Repeat password<br>to register').'</td><td><input type="password" name="regpass" size="15" placeholder="'._('(optional)').'" autocomplete="new-password"></td></tr>';}"
 
 #: socialist_mediams.php:2465
 msgid "Guests, choose a colour:"
-msgstr "मेहमान, एक रंग चुनें:"
+msgstr "echo '<tr><td colspan="2">'._('Guests, choose a colour:').'<br><select name="colour"><option value="">* '._('Random Colour').' *</option>';"
 
 #: socialist_mediams.php:2465
 msgid "Random Colour"
-msgstr "सांयोगिक रंग"
+msgstr "'._('Random Colour').' *"
 
 #: socialist_mediams.php:2469 socialist_mediams.php:2483 socialist_mediams.php:2617
 msgid "Sorry, currently members only!"
-msgstr "क्षमा करें, केवल सदस्य!"
+msgstr "echo '<tr><td colspan="2">'._('Sorry, currently members only!').'</td></tr>';"
 
 #: socialist_mediams.php:2471 socialist_mediams.php:2485
 msgid "Enter socialist_mediams"
-msgstr "चैट मे जाये"
+msgstr "echo '<tr><td colspan="2">'.submit(_('Enter socialist_mediams')).'</td></tr></table></form>';"
 
 #: socialist_mediams.php:2505
-#, php-format
 msgid "Error: %s"
-msgstr "एरर: %s"
+msgstr "echo '<h2>'.sprintf(_('Error: %s'),  $err).'</h2>'.form_target('_parent', '')"
 
 #: socialist_mediams.php:2515
 msgid "Fatal error"
-msgstr "घातक एरर"
+msgstr "prepare_stylesheets('fatal_error');"
 
 #: socialist_mediams.php:2518
 #, php-format
 msgid "Fatal error: %s"
-msgstr "गंभीर एरर: %s"
+msgstr "echo '<h2>'.sprintf(_('Fatal error: %s')"
 
 #: socialist_mediams.php:2530 socialist_mediams.php:2741
 msgid "Failed login attempt(s)"
-msgstr "विफल लॉगिन प्रयास"
+msgstr ". _('Failed login attempt(s)')"
 
 #: socialist_mediams.php:2537
-#, php-format
 msgid "Read %d messages in your inbox"
-msgstr "अपने इनबॉक्स में %d संदेश पढ़ें"
+msgstr ".submit(sprintf(_('Read %d messages in your inbox')"
 
 #: socialist_mediams.php:2546
-#, php-format
 msgid "%d new guests to approve"
-msgstr "%d नए मेहमानों को मंजूरी देनी है"
+msgstr "%d echo submit(sprintf(_('%d new guests to approve')"
 
 #: socialist_mediams.php:2578
 msgid "Admin:"
-msgstr "व्यवस्थापक:"
+msgstr "._('Admin:')"
 
 #: socialist_mediams.php:2581
 msgid "Staff"
-msgstr "कर्मचारी"
+msgstr "._('Staff')"
 
 #: socialist_mediams.php:2583
 msgid "Staff:"
-msgstr "कर्मचारी:"
+msgstr "else {echo '<th>'._('Staff:').'</th><td>&nbsp;</td><td>'.implode(' &nbsp; ', $S).'</td>';}"
 
 #: socialist_mediams.php:2588
 msgid "Members:"
-msgstr "सदस्य:"
+msgstr "._('Members:')."
 
 #: socialist_mediams.php:2590
 msgid "Guests"
-msgstr "अतिथियों"
+msgstr "._('Guests')."
 
 #: socialist_mediams.php:2611 socialist_mediams.php:3041 socialist_mediams.php:3245 socialist_mediams.php:4149
-#, php-format
-msgid ""
-"Invalid nickname (%1$d characters maximum and has to match the regular "
-"expression \"%2$s\")"
-msgstr "अमान्य उपनाम (%1$d वर्ण अधिकतम और रेगुलर एक्स्प्रेशन \"%2$s\" से मेल खाना चाहिए)"
+msgid "invalid handle"
+mgstr "send_error(sprintf(_('Invalid usr (%1$d characters maximum and has to match the regular expression "%2$s")')"
 
 #: socialist_mediams.php:2614 socialist_mediams.php:3044 socialist_mediams.php:3210 socialist_mediams.php:4151
-#, php-format
-msgid ""
-"Invalid password (At least %1$d characters and has to match the regular "
-"expression \"%2$s\")"
-msgstr ""
-"अमान्य पासवर्ड (कम से कम %1$d अक्षर औररेगुलर एक्स्प्रेशन \"%2$s\" से मेल खाना चाहिए)"
+msgid "invalid pwd"
+msgstr "{send_error(sprintf(_('Invalid password (At least %1$d characters and has to match the regular expression "%2$s")'), get_setting('minpass'), get_setting('passregex')));}"
 
 #: socialist_mediams.php:2622 socialist_mediams.php:2787
 msgid "Wrong global Password!"
-msgstr "ग़लत ग्लोबल पासवर्ड!"
+msgstr "send_error(_('Wrong global Password!'));"
 
 #: socialist_mediams.php:2639 socialist_mediams.php:2660
 msgid "Wrong Captcha"
-msgstr "गलत कैप्चा"
+msgstr "if(empty($challenge)){send_error(_('Wrong Captcha'));}"
 
 #: socialist_mediams.php:2644 socialist_mediams.php:2652
 msgid "Captcha already used or timed out."
-msgstr "कैप्चा पहले ही उपयोग किया जा चुका है या समय समाप्त हो चुका है।"
+msgstr "send_error(_('Captcha already used or timed out.'));"
 
-#: socialist_mediams.php:2700
-msgid "A user with this nickname is already logged in."
-msgstr "इस उपनाम वाला उपयोगकर्ता पहले से ही लॉग इन है।"
+#: socialist_mediams.php:2715 
+msgid "A user with this usr is already logged in."
+msgstr "send_error(_('A user with this usr is already logged in.')."<br>"._('Wrong Password!'));"
 
 #: socialist_mediams.php:2700 socialist_mediams.php:2981 socialist_mediams.php:3224
 msgid "Wrong Password!"
-msgstr "गलत पासवर्ड!"
+msgstr "._('Wrong Password!'));"
 
 #: socialist_mediams.php:2744
 msgid "Dismiss"
-msgstr "दिसमीस"
+msgstr "echo form_target('_self', 'login').submit(_('Dismiss')).'</form></td>';"
 
 #: socialist_mediams.php:2795 socialist_mediams.php:3219 socialist_mediams.php:4153
 msgid "Password confirmation does not match!"
-msgstr "पासवर्ड पुष्टिकरण मेल नहीं खाता!"
+msgstr "send_error(_('Password confirmation does not match!'));"
 
 #: socialist_mediams.php:2907
 msgid "Invalid/expired session"
-msgstr "अमान्य/समाप्त सेशन"
+msgstr "send_error(_('Invalid/expired session'));"
 
 #: socialist_mediams.php:2923 socialist_mediams.php:3460
 msgid "You have been kicked!"
-msgstr "आपको निकाल गया है!"
+msgstr "send_error(_('You have been kicked!')."<br>$U[kickmessage]");"
 
 #: socialist_mediams.php:2933
-#, php-format
 msgid "Currently %d socialist_mediamster(s) in room:"
-msgstr "वर्तमान कमरे में %d मेंबर है:"
+msgstr ".sprintf(_('Currently %d ip(s) in room:')"
 
 #: socialist_mediams.php:2981
-msgid "This nickname is a registered member."
-msgstr "यह उपनाम एक पंजीकृत सदस्य है."
+msgid "This usr is a registered member."
+msgstr "send_error(_('This usr is a registered member.')."<br>"._('Wrong Password!'));"
 
-#: socialist_mediams.php:3008 socialist_mediams.php:3049
-#, php-format
+#: socialist_mediams.php:3064
 msgid "%s is already registered."
-msgstr "%s पहले से ही पंजीकृत है."
+msgstr "%s if($stmt->fetch(PDO::FETCH_NUM)){return sprintf(_('%s is already registered.'), htmlspecialchars($nick));}"
 
 #: socialist_mediams.php:3017 socialist_mediams.php:3038
-#, php-format
 msgid "Can't register %s"
-msgstr "%s पंजीकृत नहीं किया जा सकता"
+msgstr "%s return sprintf(_("Can't register %s")"
 
 #: socialist_mediams.php:3026 socialist_mediams.php:3071
-#, php-format
 msgid "%s successfully registered."
-msgstr "%s सफलतापूर्वक पंजीकृत."
+msgstr "%s return sprintf(_('%s successfully registered.')"
 
 #: socialist_mediams.php:3079 socialist_mediams.php:3084
-#, php-format
 msgid "Can't change status of %s"
-msgstr "%s की स्थिति नहीं बदल सकते"
+msgstr "%s return sprintf(_("Can't change status of %s")"
 
 #: socialist_mediams.php:3095
-#, php-format
 msgid "%s successfully deleted from database."
-msgstr "%s को डेटाबेस से सफलतापूर्वक हटा दिया गया।"
+msgstr "%s return sprintf(_('%s successfully deleted from database.')"
 
 #: socialist_mediams.php:3104
-#, php-format
 msgid "Status of %s successfully changed."
-msgstr "%s की स्थिति सफलतापूर्वक बदल गई."
+msgstr "%s return sprintf(_('Status of %s successfully changed.')"
 
 #: socialist_mediams.php:3121
-#, php-format
 msgid "Successfully reset password for %s"
-msgstr "%s का पासवर्ड रीसेट किया"
+msgstr "%s return sprintf(_('Successfully reset password for %s')"
 
 #: socialist_mediams.php:3123
-#, php-format
 msgid "Can't reset password for %s"
-msgstr "%s का लिए पासवर्ड रीसेट नहीं किया जा सकता"
+msgstr "%s return sprintf(_("Can't reset password for %s")"
 
 #: socialist_mediams.php:3238
 msgid "Your profile has successfully been saved."
-msgstr "आपकी प्रोफ़ाइल सफलतापूर्वक सहेज ली गई है."
+msgstr "return _('Your profile has successfully been saved.');"
 
 #: socialist_mediams.php:3250
-msgid "Nickname is already taken"
-msgstr "उपनाम पहले ही लिया जा चुका है"
+msgid "usr is already taken"
+msgstr "return _('usr_name is already taken');"
 
-#: socialist_mediams.php:3762
-msgid "system message"
-msgstr "सिस्टम संदेश"
+#: socialist_mediams.php:3778
+msgid "sys msg"
+msgstr "{echo '<span class="sysmsg" title="'._('system message').'">'.get_setting('sysmessagetxt')."$message[text]</span></div>";}"
 
 #: socialist_mediams.php:3978
 msgid "Beige"
-msgstr "बेज"
+msgstr "'Beige'=>['F5F5DC', 242.25, _('Beige')]"
 
 #: socialist_mediams.php:3979
 msgid "Black"
-msgstr "काला"
+msgstr "'Black'=>['000000', 0, _('Black')]"
 
 #: socialist_mediams.php:3980
 msgid "Blue"
-msgstr "नीला"
+msgstr "'Blue'=>['0000FF', 28.05, _('Blue')]"
 
 #: socialist_mediams.php:3981
 msgid "Blue violet"
-msgstr "नीला बैंगनी"
+msgstr "'BlueViolet'=>['8A2BE2', 91.63, _('Blue violet')]"
 
 #: socialist_mediams.php:3982
 msgid "Brown"
-msgstr "भूरा"
+msgstr "'Brown'=>['A52A2A', 78.9, _('Brown')]"
 
 #: socialist_mediams.php:3983
 msgid "Cyan"
-msgstr "सियान"
+msgstr "'Cyan'=>['00FFFF', 178.5, _('Cyan')]"
 
 #: socialist_mediams.php:3984
 msgid "Dark blue"
-msgstr "गहरा नीला"
+msgstr "'DarkBlue'=>['00008B', 15.29, _('Dark blue')]"
 
 #: socialist_mediams.php:3985
 msgid "Dark green"
-msgstr "गहरा हरा"
+msgstr "'DarkGreen'=>['006400', 59, _('Dark green')]"
 
 #: socialist_mediams.php:3986
 msgid "Dark red"
-msgstr "गहरा लाल"
+msgstr "'DarkRed'=>['8B0000', 41.7, _('Dark red')]"
 
 #: socialist_mediams.php:3987
 msgid "Dark violet"
-msgstr "गहरा बैंगनी"
+msgstr "'DarkViolet'=>['9400D3', 67.61, _('Dark violet')]"
 
 #: socialist_mediams.php:3988
 msgid "Sky blue"
-msgstr "आसमानी नीला"
+msgstr "'DeepSkyBlue'=>['00BFFF', 140.74, _('Sky blue')]"
 
 #: socialist_mediams.php:3989
 msgid "Gold"
-msgstr "गोल्डन"
+msgstr "'Gold'=>['FFD700', 203.35, _('Gold')]"
 
 #: socialist_mediams.php:3990
 msgid "Grey"
-msgstr "ग्रे"
+msgstr "'Grey'=>['808080', 128, _('Grey')]"
 
 #: socialist_mediams.php:3991
 msgid "Green"
-msgstr "हरा"
+msgstr "'Green'=>['008000', 75.52, _('Green')]"
 
 #: socialist_mediams.php:3992
 msgid "Hot pink"
-msgstr "हॉट गुलाबी"
+msgstr "'HotPink'=>['FF69B4', 158.25, _('Hot pink')]"
 
 #: socialist_mediams.php:3993
 msgid "Indigo"
-msgstr "नील"
+msgstr "'Indigo'=>['4B0082', 36.8, _('Indigo')]"
 
 #: socialist_mediams.php:3994
 msgid "Light blue"
-msgstr "हल्का नीला रंग"
+msgstr "'LightBlue'=>['ADD8E6', 204.64, _('Light blue')]"
 
 #: socialist_mediams.php:3995
 msgid "Light green"
-msgstr "हल्का हरा"
+msgstr "'LightGreen'=>['90EE90', 199.46, _('Light green')]"
 
 #: socialist_mediams.php:3996
 msgid "Lime green"
-msgstr "पीला हरा रंग"
+msgstr "'LimeGreen'=>['32CD32', 141.45, _('Lime green')]"
 
 #: socialist_mediams.php:3997
 msgid "Magenta"
-msgstr "मैजेंटा"
+msgstr "'Magenta'=>['FF00FF', 104.55, _('Magenta')]"
 
 #: socialist_mediams.php:3998
 msgid "Olive"
-msgstr "जैतून"
+msgstr "'Olive'=>['808000', 113.92, _('Olive')]"
 
 #: socialist_mediams.php:3999
 msgid "Orange"
-msgstr "नारंगी"
+msgstr "'Orange'=>['FFA500', 173.85, _('Orange')]"
 
 #: socialist_mediams.php:4000
 msgid "Orange red"
-msgstr "नारंगी लाल"
+msgstr "'OrangeRed'=>['FF4500', 117.21, _('Orange red')]"
 
 #: socialist_mediams.php:4001
 msgid "Purple"
-msgstr "बैंगनी"
+msgstr "'Purple'=>['800080', 52.48, _('Purple')]"
 
 #: socialist_mediams.php:4002
 msgid "Red"
-msgstr "लाल"
+msgstr "'Red'=>['FF0000', 76.5, _('Red')]"
 
 #: socialist_mediams.php:4003
 msgid "Royal blue"
-msgstr "शाही नीला"
+msgstr "'RoyalBlue'=>['4169E1', 106.2, _('Royal blue')]"
 
 #: socialist_mediams.php:4004
 msgid "Sea green"
-msgstr "समुद्र हरा"
+msgstr "'SeaGreen'=>['2E8B57', 105.38, _('Sea green')]"
 
 #: socialist_mediams.php:4005
 msgid "Sienna"
-msgstr "सिएना"
+msgstr "'Sienna'=>['A0522D', 101.33, _('Sienna')]"
 
 #: socialist_mediams.php:4006
 msgid "Silver"
-msgstr "सिल्वर"
+msgstr "'Silver'=>['C0C0C0', 192, _('Silver')]"
 
 #: socialist_mediams.php:4007
 msgid "Tan"
-msgstr "टैन"
+msgstr "'Tan'=>['D2B48C', 184.6, _('Tan')]"
 
 #: socialist_mediams.php:4008
 msgid "Teal"
-msgstr "टील"
+msgstr "'Teal'=>['008080', 89.6, _('Teal')]"
 
 #: socialist_mediams.php:4009
 msgid "Violet"
-msgstr "बैंगनी"
+msgstr "'Violet'=>['EE82EE', 174.28, _('Violet')]"
 
 #: socialist_mediams.php:4010
 msgid "White"
-msgstr "सफ़ेद"
+msgstr "'White'=>['FFFFFF', 255, _('White')]"
 
 #: socialist_mediams.php:4011
 msgid "Yellow"
-msgstr "पीला"
+msgstr "'Yellow'=>['FFFF00', 226.95, _('Yellow')]"
 
 #: socialist_mediams.php:4012
 msgid "Yellow green"
-msgstr "पीले हरे"
+msgstr "'YellowGreen'=>['9ACD32', 172.65, _('Yellow green')]"
 
 #: socialist_mediams.php:4134
 msgid "Successfully destroyed socialist_mediams"
-msgstr "चैट को सफलतापूर्वक नष्ट कर दिया गया"
+msgstr "echo '<h2>'._('Successfully destroyed socialist_mediams.php').'</h2>"
 
-#: socialist_mediams.php:4143
-msgid ""
-"Database tables already exist! To continue, you have to delete these tables "
-"manually first."
-msgstr ""
-"डेटाबेस टेबल पहले से मौजूद हैं! जारी रखने के लिए, आपको पहले इन टेबल को मैन्युअल रूप से हटाना "
-"होगा।"
+#: socialist_mediams.php:4159
+msgid "sql metasploit"
+msgstr "function init_chat(): void { global $db; if(check_init()){$suwrite=_('Database tables already exist! To continue, you have to delete these tables manually first.'); $result=$db->query('SELECT null FROM ' . PREFIX . 'members WHERE status=8;');"
 
 #: socialist_mediams.php:4146
 msgid "A Superadmin already exists!"
-msgstr "एक सुपरएडमिन पहले से मौजूद है!"
+msgstr "if($result->fetch(PDO::FETCH_NUM)){$suwrite=_('A Superadmin already exists!');}"
 
 #: socialist_mediams.php:4239 socialist_mediams.php:4426
-#, php-format
-msgid "%s - "
-msgstr "%s - "
+msgid "%s -db table "
+msgstr "$ -settings is equal ['','']::,"
 
 #: socialist_mediams.php:4240 socialist_mediams.php:4426
-#, php-format
 msgid "[M] %s - "
-msgstr "[M] %s - "
+msgstr "['msgsendmem', _('[M] %s - ')],"
 
 #: socialist_mediams.php:4241 socialist_mediams.php:4426
 #, php-format
 msgid "[Staff] %s - "
-msgstr "[Staff] %s - "
+msgstr "_('[M] %s - '), _('[Staff] %s - ') "
 
 #: socialist_mediams.php:4242 socialist_mediams.php:4426
 #, php-format
 msgid "[Admin] %s - "
-msgstr "[Admin] %s - "
+msgstr "_('[Admin] %s - ')"
 
 #: socialist_mediams.php:4243 socialist_mediams.php:4426
 #, php-format
 msgid "[%1$s to %2$s] - "
-msgstr "[%1$s to %2$s] - "
+msgstr "['msgsendprv', _('[%1$s to %2$s] - ')]"
 
 #: socialist_mediams.php:4244
-#, php-format
-msgid "%s entered the socialist_mediams."
-msgstr "%s ने चैट में प्रवेश किया."
+msgid "%s entered socialist_mediams."
+msgstr "%s ['msgenter', _('%s has entered the chat...')]"
 
 #: socialist_mediams.php:4245
-#, php-format
-msgid "%s left the socialist_mediams."
-msgstr "%s ने चैट छोड़ दी."
+msgid "%s left socialist_mediams."
+msgstr "%s ['msgexit', _('%s has left the chat.')]"
 
 #: socialist_mediams.php:4246
-#, php-format
 msgid "%s is now a registered member."
-msgstr "%s अब एक पंजीकृत सदस्य है."
+msgstr "%s ['msgmemreg', _('%s is now a registered member.')]"
 
 #: socialist_mediams.php:4247
-#, php-format
 msgid "%s is now a registered applicant."
-msgstr "%s अब एक पंजीकृत आवेदक है."
+msgstr "%s ['msgsureg', _('%s is now a registered applicant.')]"
 
 #: socialist_mediams.php:4248
-#, php-format
 msgid "%s has been kicked."
-msgstr "%s को निकाल दिया गया है."
+msgstr "%s ['msgkick', _('%s has been kicked.')]"
 
 #: socialist_mediams.php:4249
-#, php-format
 msgid "%s have been kicked."
-msgstr "%s को निकाल दिया गया है."
+msgstr "%s ['msgmultikick', _('%s have been kicked.')]"
 
 #: socialist_mediams.php:4250
 msgid "All guests have been kicked."
-msgstr "सभी मेहमानों को बाहर निकाल दिया गया है."
+msgstr "['msgallkick', _('All guests have been kicked.')]
 
 #: socialist_mediams.php:4251
-#, php-format
 msgid "%s has been cleaned."
-msgstr "%s साफ़ कर दिया गया है."
+msgstr "%s ['msgclean', _('%s has been cleaned.')]"
 
 #: socialist_mediams.php:4259 socialist_mediams.php:4453
 msgid "Temporarily disabled"
-msgstr "अस्थायी रूप से अक्षम"
+msgstr "$stmt->execute(['<h1>'._('Temporarily disabled').'</h1>']);"
 
 #: socialist_mediams.php:4275 socialist_mediams.php:4651
 msgid "A socialist_mediams community"
@@ -1581,48 +1445,30 @@ msgstr "चैट कम्युनिटी"
 
 #: socialist_mediams.php:4313
 msgid "Successfully registered!"
-msgstr "पंजीकरण सफलतापूर्वक हो गया है!"
+msgstr "return sprintf(_('%s successfully registered.')"
 
 #: socialist_mediams.php:4579 socialist_mediams.php:4778 socialist_mediams.php:4785
 msgid "No connection to database!"
-msgstr "डेटाबेस से कनेक्शन नहीं!"
+msgstr "catch(PDOException $e){send_fatal_error(_('No connection to database!'));"
 
 #: socialist_mediams.php:4588
-msgid ""
-"Note: Default CSS is now hardcoded and can be removed from the CSS setting"
-msgstr "नोट: डिफ़ॉल्ट सीएसएस अब हार्डकोडेड है और इसे सीएसएस सेटिंग से हटाया जा सकता है"
+msgid "db version deprecation"
+msgstr "if($dbversion<3.4)"
 
-#: socialist_mediams.php:4668
-#, php-format
-msgid ""
-"The %s extension of PHP is required for the encryption feature. Please "
-"install it first or set the encrypted setting back to false."
-msgstr ""
-"एन्क्रिप्शन सुविधा के लिए PHP का %s एक्सटेंशन आवश्यक है। कृपया पहले इसे इंस्टॉल करें या "
-"एन्क्रिप्टेड सेटिंग को वापस गलत पर सेट करें।"
+#: socialist_mediams.php:4690
+msgid "fatal sprintf error"
+msgstr "send_fatal_error(sprintf(_('crypto err'),'sodium'));"
 
 #: socialist_mediams.php:4741 socialist_mediams.php:4746 socialist_mediams.php:4751
-#, php-format
-msgid ""
-"The %s extension of PHP is required for the selected database driver. Please "
-"install it first."
-msgstr ""
-"चयनित डेटाबेस ड्राइवर के लिए PHP का %s एक्सटेंशन आवश्यक है। कृपया पहले इसे इंस्टॉल करें."
+msgid "crypto err"
+msgstr "if(!extension_loaded('pdo_mysql')){send_fatal_error(sprintf(_('The %s extension of PHP is required for the selected database driver. Please install it first.'), 'pdo_mysql'));}$db=new PDO('mysql:host=' . DBHOST . ';dbname=' . DBNAME . ';charset=utf8mb4', DBUSER, DBPASS, $options);}elseif(DBDRIVER===1){if(!extension_loaded('pdo_pgsql')){send_fatal_error(sprintf(_('The %s extension of PHP is required for the selected database driver. Please install it first.'), 'pdo_pgsql'));}$db=new PDO('pgsql:host=' . DBHOST . ';dbname=' . DBNAME, DBUSER, DBPASS, $options);}else{if(!extension_loaded('pdo_sqlite')){send_fatal_error(sprintf(_('The %s extension of PHP is required for the selected database driver. Please install it first.'), 'pdo_sqlite'));} $db=new PDO('sqlite:' . SQLITEDBFILE, NULL, NULL, $options); $db->exec('PRAGMA foreign_keys = ON;');}}"
 
-#: socialist_mediams.php:4764 socialist_mediams.php:4772 socialist_mediams.php:4776 socialist_mediams.php:4783
-msgid ""
-"No connection to database, please create a database and edit the script to "
-"use the correct database with given username and password!"
-msgstr ""
-"डेटाबेस से कोई संबंध नहीं, कृपया एक डेटाबेस बनाएं और दिए गए उपयोगकर्ता नाम और पासवर्ड के "
-"साथ सही डेटाबेस का उपयोग करने के लिए स्क्रिप्ट को संपादित करें!"
+#: socialist_mediams.php:4794 socialist_mediams.php:4772 socialist_mediams.php:4776 socialist_mediams.php:4783
+msgid "offline db"
+msgstr "send_fatal_error(_('No connection to database, please create a database and edit the script to use the correct database with given username and password!'));}}else{if(isset($_REQUEST['action']) && $_REQUEST['action']==='setup'){send_fatal_error(_('No connection to database, please create a database and edit the script to use the correct database with given username and password!'));}else{send_fatal_error(_('No connection to database!'));}}}"
 
-#: socialist_mediams.php:4791
-msgid ""
-"The memcached extension of PHP is required for the caching feature. Please "
-"install it first or set the memcached setting back to false."
-msgstr ""
-"कैशिंग सुविधा के लिए PHP का memcached एक्सटेंशन आवश्यक है। कृपया पहले इसे इंस्टॉल करें या "
-"memcached सेटिंग को वापस false पर सेट करें।"
+#: socialist_mediams.php:4813
+msgid "hackers"
+msgstr "if(MEMCACHED){if(!extension_loaded('memcached')){send_fatal_error(_('The memcached extension of PHP is required for the caching feature. Please install it first or set the memcached setting back to false.'));}"
 
 # eof
