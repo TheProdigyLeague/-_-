@@ -43,7 +43,7 @@ Subscription Based PaaS incorporated with paywalls, shadow mods, and asian admin
 
 * It can be difficult to get sponsors, funding, or endorsements when someone with zero social credit to their name and cringeposts in gc turns bb.c into html. So we will use bb.c to format msgs!
 
-`\[(u|b)\]:(.*?)\[\/\1\]:'&&'this_rgx_rp'[b]bold[/b]';[u]underline[/u];usr🚩naughtyWord(?-i::(cry|eek|lol|sad|smile|surprised|wink):)<imgsrc="/unapproved-meme/$1.gif" alt=":$1">`/^rmvWord:\s/i.test | /^ban:\s/i.test(u.i.m)``
+```\[(u|b)\]:(.*?)\[\/\1\]:'&&'this_rgx_rp'[b]bold[/b]';[u]underline[/u];usr🚩naughtyWord(?-i::(cry|eek|lol|sad|smile|surprised|wink):)<imgsrc="/unapproved-meme/$1.gif" alt=":$1">`/^rmvWord:\s/i.test | /^ban:\s/i.test(u.i.m)```
 
 * The End-User will now be silenced in the server permanently.
 
