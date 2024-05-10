@@ -36,12 +36,12 @@ Subscription Based PaaS incorporated with paywalls, shadow mods, and asian admin
 #### Asians
 
 * translation script `^d-translate.sh` from .src
-* gen fs `locale/socialist-mediums-php.pot`
+* `gen fs locale/socialist-mediums-php.pot`
 * `asian_lang.c/sm_msg/socialist-mediums-php.pot -edit poedit.net daniel@danwin1210.de include.lua`
 
 #### Filtering gamer words
 
-* It can be difficult to get sponsors, funding, or endorsements when someone with zero social credit to their name and cringeposts in gc turns bb.c into html. So we will use bb.c to format msgs!
+* It can be difficult to get sponsors, funding, or endorsements when someone with zero social credit to their name cringeposts in gc and turns `bb.c index.html` So use DevOps `bb.c` to format msgs!
 
 ```\[(u|b)\]:(.*?)\[\/\1\]:'&&'this_rgx_rp'[b]bold[/b]';[u]underline[/u];usr🚩naughtyWord(?-i::(cry|eek|lol|sad|smile|surprised|wink):)<imgsrc="/unapproved-meme/$1.gif" alt=":$1">`/^rmvWord:\s/i.test | /^ban:\s/i.test(u.i.m)```
 
