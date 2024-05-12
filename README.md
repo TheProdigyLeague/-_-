@@ -22,11 +22,11 @@ Subscription Based PaaS incorporated with paywalls, shadow mods, and asian admin
 
 ### Required Third-Party Extensions
 
-* php, intl, gittxt, pdo, pcre, mbstring, dteext, websrv, pdo_sqlite, pdo_mysql, pdo_pgsql, mysqldb, gdext, json, memcache.conf, postgresql, sqllite, libsodium v.7.2, crypto, and msgdb
-* Create db, bot_usr for chat lurking.
-* Edit $HOME, $PATH, `.conf` (The script reflects Asian approved db settings and mods will enforce rules.)
+* `php, intl, gittxt, pdo, pcre, mbstring, dteext, websrv, pdo_sqlite, pdo_mysql, pdo_pgsql, mysqldb, gdext, json, memcache.conf, postgresql, sqllite, libsodium v.7.2, crypto, and msgdb`
+* Create `db, bot_usr` for chat lurking.
+* Edit `$HOME, $PATH,,.conf` (The script reflects Asian approved `db set` and mods will enforce rules.)
 
-`$ cp ext.py -mod {web-srv dir $call para "usr/tor.onion" http://www.8080.go/crypto.php?action=setup}`
+`$ cp ext.py -mod {web-srv dir $call para "usr/tor.onion" http://www.8080.go.onion/crypto.php?action=setup}`
 **create superadmin.acct.cry**
 
 * admin chat, log members personal data, mine 0auth access
